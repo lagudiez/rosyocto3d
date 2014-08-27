@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>imu</name>
+  <version>0.0.0</version>
+  <description>The IMU package</description>
+  <maintainer email="lagudiez@cs.stanford.edu">Lucas Agudiez Roitman</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+
+  <depend>message_generation</depend>
+  <depend>geometry_msgs</depend>
+  <depend>yocto3d</depend>
+  <depend>roscpp</depend>
+
+
+  <export>
+  </export>
+</package>
